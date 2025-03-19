@@ -91,7 +91,7 @@ Photos | James Uno Simpao | The Sunset Creatives</p>
     </div>
   </section>
 
-  <footer>
+   <footer>
     <div class="footer-container">
       <div class="quick-links">
         <h4>Quick Links</h4>
@@ -101,9 +101,15 @@ Photos | James Uno Simpao | The Sunset Creatives</p>
       </div>
       <div class="social-media">
         <h4>Follow Us</h4>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
+        <a href="#" aria-label="Facebook">
+          <img src="{{ asset('img/fb.png')}}" alt="Facebook" />
+        </a>
+        <a href="#" aria-label="Instagram">
+          <img src="{{ asset('img/ig.jfif')}}" alt="Instagram" />
+        </a>
+        <a href="#" aria-label="Twitter">
+          <img src="{{ asset('img/twitter.png')}}" alt="Twitter" />
+        </a>
       </div>
       <div class="newsletter">
         <h4>Newsletter</h4>
