@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BSIT Society Dashboard</title>
+  <title>Events</title>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
@@ -24,6 +24,12 @@
         <img src="{{ asset('img/img1.jpg')}}" alt="logo" style="display: flex; justify-content: flex-start; margin:0 auto; max-width:100px;" />
     </div>
     <nav>
+       <style>
+  ul li a:hover {
+    color: #007bff; 
+  }
+</style>
+
       <ul>
         <li><a href="{{ route('welcome')}}">Home</a></li>
         <li><a href="{{ route('about')}}">About</a></li>
@@ -58,26 +64,31 @@
   </section>
 
   <footer>
-    <div class="footer-container">
-      <div class="quick-links">
-        <h4>Quick Links</h4>
-      </div>
-      <div class="contact-us">
-        <h4>Contact Us</h4>
-      </div>
-      <div class="social-media">
-        <h4>Follow Us</h4>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
-      </div>
-      <div class="newsletter">
-        <h4>Newsletter</h4>
-        <input type="email" placeholder="Enter your email" />
-        <button>Subscribe</button>
-      </div>
+  <div class="footer-container">
+    <div class="quick-links">
+      <h4>Quick Links</h4>
+      <a href="mailto:bits.slsu.bc@gmail.com">Email: bits.slsu.bc@gmail.com</a><br>
+      <a href="https://www.facebook.com/slsubitsofficial/">Facebook Page</a>
     </div>
-    <p>&copy; BSIT Society. All rights reserved.</p>
-  </footer>
+    <div class="social-media">
+      <h4>Follow Us</h4>
+      <a href="#" aria-label="Facebook">
+        <img src="{{ asset('img/fb.jpg')}}" alt="Facebook" style="width: 30px; height: 30px;" />
+      </a>
+      <a href="#" aria-label="Instagram">
+        <img src="{{ asset('img/ig.jpg')}}" alt="Instagram" style="width: 30px; height: 30px;" />
+      </a>
+      <a href="#" aria-label="Twitter">
+        <img src="{{ asset('img/twitter.jpg')}}" alt="Twitter" style="width: 30px; height: 30px;" />
+      </a>
+    </div>
+    <div class="newsletter">
+      <h4>Newsletter</h4>
+      <input type="email" placeholder="Enter your email" />
+      <button>Subscribe</button>
+    </div>
+  </div><br>
+  <p>&copy; BSIT Society. All rights reserved.</p>
+</footer>
 </body>
 </html>
