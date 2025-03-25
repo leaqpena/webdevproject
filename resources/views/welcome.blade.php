@@ -82,7 +82,12 @@
 
 <section class="welcome">
   <h1>Welcome to BSIT Society</h1><br>
-  <p>The BSIT Society is a dynamic community dedicated to empowering IT students through knowledge-sharing, skill-building, and professional growth.</p>
+  <p>The BSIT Society is a dynamic community dedicated to empowering IT students
+ through knowledge-sharing, skill-building, and professional growth. Whether you're passionate 
+about programming, cybersecurity, web development, or emerging technologies, our society
+ provides opportunities for collaboration, innovation, and networking. Join us as we explore 
+the ever-evolving world of IT, engage in exciting events, and build a future driven
+ by technology and creativity!</p>
   <button>Join Us</button>
 </section>
 
@@ -146,6 +151,30 @@ Let’s make this Valentine’s Day unforgettable! 💌<br><br>
 </section>
 
 <footer>
+  <div class="footer-container">
+    <div class="quick-links">
+      <h4>Quick Links</h4>
+      <a href="mailto:bits.slsu.bc@gmail.com">Email: bits.slsu.bc@gmail.com</a><br>
+      <a href="https://www.facebook.com/slsubitsofficial/">Facebook Page</a>
+    </div>
+    <div class="social-media">
+      <h4>Follow Us</h4>
+      <a href="#" aria-label="Facebook">
+        <img src="{{ asset('img/fb.jpg')}}" alt="Facebook" style="width: 30px; height: 30px;" />
+      </a>
+      <a href="#" aria-label="Instagram">
+        <img src="{{ asset('img/ig.jpg')}}" alt="Instagram" style="width: 30px; height: 30px;" />
+      </a>
+      <a href="#" aria-label="Twitter">
+        <img src="{{ asset('img/twitter.jpg')}}" alt="Twitter" style="width: 30px; height: 30px;" />
+      </a>
+    </div>
+    <div class="newsletter">
+      <h4>Newsletter</h4>
+      <input type="email" placeholder="Enter your email" />
+      <button>Subscribe</button>
+    </div>
+  </div><br>
   <p>&copy; BSIT Society. All rights reserved.</p>
 </footer>
 </body>
