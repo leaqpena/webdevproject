@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Faculty and Staff</title>
+  <title>BSIT Society Website</title>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
@@ -18,86 +18,112 @@
       });
     });
   </script>
-
+  <style>
+    .news-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .news-card {
+      width: 30%;
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .news-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .news-card h3 {
+      margin: 15px;
+      font-size: 1.5rem;
+    }
+    .news-card button {
+      margin: 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .news-card button:hover {
+      background-color: #0056b3;
+    }
+    .news-content {
+      margin: 15px;
+      display: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
 <header>
-    <div class="logo">
-        <img src="{{ asset('img/img1.jpg')}}" alt="logo" style="display: flex; justify-content: flex-start; margin:0 auto; max-width:100px;" />
-    </div>
-    <nav>
-       <style>
-  ul li a:hover {
-    color: #007bff; 
-  }
-</style>
-
-      <ul>
-        <li><a href="{{ route('welcome')}}">Home</a></li>
-        <li><a href="{{ route('about')}}">About</a></li>
-        <li><a href="{{ route('event')}}">Events</a></li>
-        <li><a href="{{ route('contact')}}">Contact</a></li>
-        <li><a href="{{ route('faculty')}}">Faculty and Staff</a></li>
-      </ul>
-    </nav>
-      <div class="auth-buttons">
-        <button>Signup</button>
-        <button>Signin</button>
-    </div>
+  <div class="logo">
+    <img src="{{ asset('img/img1.jpg')}}" alt="logo" style="display: flex; justify-content: flex-start; margin:0 auto; max-width:100px;" />
+  </div>
+  <nav>
+    <ul>
+      <li><a href="{{ route('welcome')}}">Home</a></li>
+      <li><a href="{{ route('about')}}">About</a></li>
+      <li><a href="{{ route('event')}}">Events</a></li>
+      <li><a href="{{ route('contact')}}">Contact</a></li>
+      <li><a href="{{ route('faculty')}}">Faculty and Staff</a></li>
+    </ul>
+  </nav>
+  <div class="auth-buttons">
+    <button>Signup</button>
+    <button>Signin</button>
+  </div>
 </header>
 
+<section class="welcome">
+  <h1>Meet Our Esteemed Faculty and Staff</h1><br>
+  <p>Our dedicated faculty and staff are the backbone of the BSIT Society, guiding and shaping future IT professionals. Get to know the passionate educators and mentors who are committed to excellence in teaching, research, and innovation.</p>
+</section>
 
+<section class="featured-news">
+ <center> <h2>Faculty and Staff</h2></center>
+  <div class="news-container">
+  <div class="news-card">
+      <img src="{{ asset('img/s.png')}}" alt="News 5" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Sir Sherwin G. Caday</h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content"> BS InfoTech Program Chair</p>
 
-  <section class="welcome">
-    <h1>Welcome to BSIT Society</h1>
-    <p>The BSIT Society is a dynamic community dedicated to empowering IT students
- through knowledge-sharing, skill-building, and professional growth. Whether you're passionate 
-about programming, cybersecurity, web development, or emerging technologies, our society
- provides opportunities for collaboration, innovation, and networking. Join us as we explore 
-the ever-evolving world of IT, engage in exciting events, and build a future driven
- by technology and creativity!</p>
-    <button>Join Us</button>
-  </section>
-
-  <section class="featured-news">
-    <h2>Featured News</h2>
-    <div class="news-container">
-      <div class="news-card">
-        <img src="{{ asset('img/img3.jpg')}}" alt="News 1" />
-        <h3>BITS Organization participates in Care and Share</h3>
-        <button class="see-more-btn">See More</button>
-        <p class="news-content" style="display:none;">On March 3, 2023, at the BS Fisheries Fishpond, BITS actively participated in the Care and Share initiative. Students, alongside the BS in Fisheries program, worked hand in hand to clean the fishpond, remove debris, and properly segregate waste. Their teamwork and dedication contributed to a cleaner and healthier environment, reflecting their commitment to sustainability and community service.<br><br>
-Photos | James Uno Simpao | The Sunset Creatives
-</p>
-      </div>
-      <div class="news-card">
-        <img src="{{ asset('img/img2.jpg')}}" alt="News 2" />
-        <h3>BITS 'n Love: A Valentine's Day Celebration</h3>
-        <button class="see-more-btn">See More</button>
-        <p class="news-content" style="display:none;">Last February 14, 2025, The Bontoc Information Technology Society spread joy and happiness on Valentine's Day with BITS 'n' Love! The event was held at the Multi-Purpose Covered Court, SLSU - Bontoc Campus.
-The magic of the season was felt as voices filled the air in the singing competition and emotions came to life in the contemporary dance contest. From heartfelt melodies to expressive movements, love was celebrated in all its forms, including friendship and unity.<br><br>
-More than just a competition, this event brought people together, created beautiful memories, and shared moments of laughter, joy, and appreciation. It truly made this Valentine's celebration one to remember!<br><br>
-#BITSnLove #BITS #HappyValentinesDay
-</p>
-      </div>
-      <div class="news-card">
-        <img src="{{ asset('img/img4.jpg')}}" alt="News 3" />
-        <h3>BITS joins in Time Capsule Activity</h3>
-        <button class="see-more-btn">See More</button>
-        <p class="news-content" style="display:none;">On March 3, 2025, Bontoc Information Technology Society (BITS)  joined the time capsule burial alongside the faculty, staff, and other student organizations. The event was led by the SAS Head, Dr. Peter June D. Dadios, who delivered a brief message before placing some of his personal items into the capsule. Dr. Gladys L. Pascual, Campus Director, Jimmy E. Salamida, Faculty Dean,  and other faculty members also contributed meaningful items. Among the capsule’s contents were business cards, old coins, vouchers and group photos, all meant to serve as a glimpse into the past. The time capsule was sealed with the collective hope of revisiting these memories when it is unearthed 10 years from now.<br><br>
-Photos | James Uno Simpao | The Sunset Creatives</p>
-      </div>
     </div>
-  </section>
-
-  <section class="upcoming-events">
-    <h2>Upcoming Events</h2>
-    <div class="events-container">
-      <div class="event-placeholder"></div>
-      <div class="event-placeholder"></div>
-      <div class="event-placeholder"></div>
+    <div class="news-card">
+      <img src="{{ asset('img/jr.jpeg')}}" alt="News 3" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Sir Junnie Ryh M. Sumacot </h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content"> CISA Head and IT Instructor</p>
     </div>
-  </section>
+    <div class="news-card">
+      <img src="{{ asset('img/r.jpg')}}" alt="News 4" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Sir Rexal S. Toledo </h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content"> IT Instructor</p>
+    </div>
+     <div class="news-card">
+      <img src="{{ asset('img/ja.jpeg')}}" alt="News 2" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Sir Julius Amfil E. Dublado</h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content">Office Incharge of Research and IT Instructor</p>
+    </div>
+    
+  <div class="news-card">
+  <img src="{{ asset('img/ch.png') }}" alt="News 1" style="height: 300px; width: 300px; object-fit: cover;" />
+ <h3>Ma'am Christine A. Makilang </h3>
+  <button class="see-more-btn">See More</button>
+  <p class="news-content">Hi! I'm Ma'am Christine a visiting IT Instructor from SLSU Bontoc Southern Leyte. </p>
+</div>   
+  </div>
+</section>
 
-   <footer>
+<footer>
   <div class="footer-container">
     <div class="quick-links">
       <h4>Quick Links</h4>
