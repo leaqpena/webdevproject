@@ -81,6 +81,22 @@
     </div>
   </header>
 
+ 
+  <div class="university-logo" style="display: flex; justify-content: center; margin: 20px;">
+    <img src="{{ asset('img/bc.jpg') }}" alt="University Logo" style="width: 200px;" />
+  </div>
+
+   <section id="university-info">
+    <h2>UNIVERSITY VISION</h2><br>
+    <p>By 2040, Southern Leyte State University is a leading higher education institution that advances knowledge and will be known for innovation and compassion for humanity, creating an inclusive society and a sustainable world.</p><br><br>
+
+    <h2>UNIVERSITY MISSION</h2><br>
+    <p>We commit to be a smart and green University that advances education, technological and professional instruction, research and innovation, community engagement services and progressive leadership in arts, sciences and technology that are relevant to the needs of the glocal communities. We produce graduates and life-long learners equipped with knowledge that enhances lives and invigorates economic development.</p><br><br>
+
+    <h2>CORE VALUES</h2><br>
+    <p>Excellence, Service, Leadership and Good Governance, Innovation, Social Responsibility, Integrity, Professionalism, Spirituality</p><br><br>
+  </section>
+
   <section id="video-section">
     <h2>Discover Our Program</h2>
     <div class="video-container">
@@ -108,62 +124,85 @@
   </section>
 
   <section id="outcomes">
-    <h2>GRADUATE OUTCOMES</h2><br>
-    <table>
-      <thead>
-        <tr>
-          <th>Graduate Outcomes Code</th>
-          <th>Graduate Outcomes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>IT01</td>
-          <td>Apply knowledge of computing, science, and mathematics appropriate to the discipline.</td>
-        </tr>
-        <tr>
-          <td>IT02</td>
-          <td>Understand best practices and standards and their applications.</td>
-        </tr>
-        <tr>
-          <td>IT03</td>
-          <td>Analyze complex problems, and identify and define the computing requirements appropriate to its solution.</td>
-        </tr>
-        <tr>
-          <td>IT04</td>
-          <td>Identify and analyze user needs and consider them in the selection, creation, evaluation and administration of computer-based systems.</td>
-        </tr>
-        <tr>
-          <td>IT05</td>
-          <td>Design, implement, and evaluate computer-based systems, processes, components, or programs to meet desired needs and requirements under various constraints.</td>
-        </tr>
-        <tr>
-          <td>IT06</td>
-          <td>Integrate IT-based solutions into the user environment effectively.</td>
-        </tr>
-        <tr>
-          <td>IT07</td>
-          <td>Apply knowledge with current techniques, skills, tools and practices necessary for the IT profession.</td>
-        </tr>
-        <tr>
-          <td>IT08</td>
-          <td>Function effectively as a member or leader of a development team recognizing the different roles within a team to accomplish a common goal.</td>
-        </tr>
-        <tr>
-          <td>IT09</td>
-          <td>Assist in the creation of an effective IT project plan.</td>
-        </tr>
-        <tr>
-          <td>IT10</td>
-          <td>Communicate effectively with the computing community and with society at large about complex computing activities through logical writing, presentations, and clear instructions.</td>
-        </tr>
-        <tr>
-          <td>IT11</td>
-          <td>Analyze the local and global impact of computing information technology on individuals, organizations, and society.</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+  <h2>GRADUATE OUTCOMES</h2><br>
+  <table>
+    <thead>
+      <tr>
+        <th>Graduate Attribute</th>
+        <th>Graduate Outcomes Code</th>
+        <th>Graduate Outcomes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Knowledge for Solving Computing Problems</td>
+        <td>IT01</td>
+        <td>Apply knowledge of computing, science, and mathematics appropriate to the discipline.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>IT02</td>
+        <td>Understand best practices and standards and their applications.</td>
+      </tr>
+      <tr>
+        <td>Problem Analysis</td>
+        <td>IT03</td>
+        <td>Analyze complex problems, and identify and define the computing requirements appropriate to its solution.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>IT04</td>
+        <td>Identify and analyze user needs and consider them in the selection, creation, evaluation, and administration of computer-based systems.</td>
+      </tr>
+      <tr>
+        <td>Design/Development of Solutions</td>
+        <td>IT05</td>
+        <td>Design, implement, and evaluate computer-based systems, processes, components, or programs to meet desired needs and requirements under various constraints.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>IT06</td>
+        <td>Integrate IT-based solutions into the user environment effectively.</td>
+      </tr>
+      <tr>
+        <td>Modern Tool Usage</td>
+        <td>IT07</td>
+        <td>Apply knowledge with current techniques, skills, tools, and practices necessary for the IT profession.</td>
+      </tr>
+      <tr>
+        <td>Individual and Team Work</td>
+        <td>IT08</td>
+        <td>Function effectively as a member or leader of a development team recognizing the different roles within a team to accomplish a common goal.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>IT09</td>
+        <td>Assist in the creation of an effective IT project plan.</td>
+      </tr>
+      <tr>
+        <td>Communication</td>
+        <td>IT10</td>
+        <td>Communicate effectively with the computing community and with society at large about complex computing activities through logical writing, presentations, and clear instructions.</td>
+      </tr>
+      <tr>
+        <td>Computing Professionalism and Social Responsibility</td>
+        <td>IT11</td>
+        <td>Analyze the local and global impact of computing information technology on individuals, organizations, and society.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>IT12</td>
+        <td>Understand professional, ethical, legal, security, and social issues and responsibilities in the utilization of information technology.</td>
+      </tr>
+      <tr>
+        <td>Life-Long Learning</td>
+        <td>IT13</td>
+        <td>Recognize the need for and engage in planning self-learning and improving performance as a foundation for continuing professional development.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
 
   <footer>
   <div class="footer-container">
