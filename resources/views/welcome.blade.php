@@ -16,6 +16,10 @@
         var btnText = $(this).text() === "See More" ? "See Less" : "See More";
         $(this).text(btnText);
       });
+     // Hamburger menu toggle
+      $(".hamburger").click(function() {
+        $("nav ul").toggleClass("show");
+      });
     });
   </script>
   <style>
@@ -65,6 +69,8 @@
   <div class="logo">
     <img src="{{ asset('img/img1.jpg')}}" alt="logo" style="display: flex; justify-content: flex-start; margin:0 auto; max-width:100px;" />
   </div>
+  <button class="hamburger">&#9776;</button>
+  
   <nav>
     <ul>
       <li><a href="{{ route('welcome')}}">Home</a></li>
@@ -72,6 +78,7 @@
       <li><a href="{{ route('event')}}">Events</a></li>
       <li><a href="{{ route('contact')}}">Contact</a></li>
       <li><a href="{{ route('faculty')}}">Faculty and Staff</a></li>
+      <li><a href="{{ route('officers')}}">BITS Officers</a></li>
     </ul>
   </nav>
   <div class="auth-buttons">

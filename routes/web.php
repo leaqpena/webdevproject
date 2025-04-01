@@ -32,3 +32,6 @@ Route::get('/contact', function () {
 Route::get('/faculty', function () {
     return view('faculty');
 })->name('faculty');
+Route::get('/officers', function () {
+    return view('officers');
+})->name('officers');

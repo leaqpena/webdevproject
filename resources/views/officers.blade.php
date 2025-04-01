@@ -82,47 +82,65 @@
 </header>
 
 <section class="welcome">
-  <h1>Meet Our Esteemed Faculty and Staff</h1><br>
-  <p>Our dedicated faculty and staff are the backbone of the BSIT Society, guiding and shaping future IT professionals. Get to know the passionate educators and mentors who are committed to excellence in teaching, research, and innovation.</p>
+  <h1>Meet Our Esteemed BITS Officers</h1><br>
+  <p>
+     Dynamic leaders driving innovation and excellence in IT. Discover the team shaping our future!
 </section>
 
 <section class="featured-news">
- <center> <h2>Faculty and Staff</h2></center>
+  <center><h2>BITS Officers</h2></center>
   <div class="news-container">
-  <div class="news-card">
-      <img src="{{ asset('img/s.png')}}" alt="News 5" style="height: 300px; width: 300px; object-fit: cover;" />
-      <h3>Sir Sherwin G. Caday</h3>
+    <div class="news-card">
+      <img src="{{ asset('img/President.png') }}" alt="President" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Lasala, Mark Angelo</h3>
       <button class="see-more-btn">See More</button>
-      <p class="news-content"> BS InfoTech Program Chair</p>
-
+      <p class="news-content">President</p>
     </div>
     <div class="news-card">
-      <img src="{{ asset('img/jr.jpeg')}}" alt="News 3" style="height: 300px; width: 300px; object-fit: cover;" />
-      <h3>Sir Junnie Ryh M. Sumacot </h3>
+      <img src="{{ asset('img/Secretary.png') }}" alt="Secretary" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Flores, Jessica</h3>
       <button class="see-more-btn">See More</button>
-      <p class="news-content"> CISA Head and IT Instructor</p>
+      <p class="news-content">Secretary</p>
     </div>
     <div class="news-card">
-      <img src="{{ asset('img/r.jpg')}}" alt="News 4" style="height: 300px; width: 300px; object-fit: cover;" />
-      <h3>Sir Rexal S. Toledo </h3>
+      <img src="{{ asset('img/Treasurer.png') }}" alt="Treasurer" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Bermiso, Marievel</h3>
       <button class="see-more-btn">See More</button>
-      <p class="news-content"> IT Instructor</p>
+      <p class="news-content">Treasurer</p>
+    </div>
+    <div class="news-card">
+      <img src="{{ asset('img/1A Representative.png') }}" alt="1A Representative" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Camarista, John Brunz</h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content">1A Representative</p>
+    </div>
+    <div class="news-card">
+      <img src="{{ asset('img/1B Representative.png') }}" alt="1B Representative" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Valenzuela, Klaire</h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content">1B Representative</p>
+    </div>
+    <div class="news-card">
+      <img src="{{ asset('img/2A Representative.png') }}" alt="2A Representative" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Cabahug, Danica Marie</h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content">2A Representative</p>
+    </div>
+    <div class="news-card">
+      <img src="{{ asset('img/2B Representative.png') }}" alt="2B Representative" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Oclarit, Annalou</h3>
+      <button class="see-more-btn">See More</button>
+      <p class="news-content">2B Representative</p>
     </div>
      <div class="news-card">
-      <img src="{{ asset('img/ja.jpeg')}}" alt="News 2" style="height: 300px; width: 300px; object-fit: cover;" />
-      <h3>Sir Julius Amfil E. Dublado</h3>
+      <img src="{{ asset('img/3B Representative.png') }}" alt="2B Representative" style="height: 300px; width: 300px; object-fit: cover;" />
+      <h3>Oclarit, Annalou</h3>
       <button class="see-more-btn">See More</button>
-      <p class="news-content">Office Incharge of Research and IT Instructor</p>
+      <p class="news-content">3B Representative</p>
     </div>
-    
-  <div class="news-card">
-  <img src="{{ asset('img/ch.png') }}" alt="News 1" style="height: 300px; width: 300px; object-fit: cover;" />
- <h3>Ma'am Christine A. Makilang </h3>
-  <button class="see-more-btn">See More</button>
-  <p class="news-content">Visiting IT Instructor </p>
-</div>   
   </div>
 </section>
+
 
 <footer>
   <div class="footer-container">

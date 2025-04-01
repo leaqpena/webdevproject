@@ -73,6 +73,7 @@
         <li><a href="{{ route('event')}}">Events</a></li>
         <li><a href="{{ route('contact')}}">Contact</a></li>
         <li><a href="{{ route('faculty')}}">Faculty and Staff</a></li>
+        <li><a href="{{ route('officers')}}">BITS Officers</a></li>
       </ul>
     </nav>
     <div class="auth-buttons">
@@ -81,7 +82,7 @@
     </div>
   </header>
 
- 
+
   <div class="university-logo" style="display: flex; justify-content: center; margin: 20px;">
     <img src="{{ asset('img/bc.jpg') }}" alt="University Logo" style="width: 200px;" />
   </div>
